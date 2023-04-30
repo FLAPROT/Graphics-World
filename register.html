@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - GRAPHICS WORLD </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icons/title_logo.webp">
+</head>
+<body>
+    <nav class="nav_title_logo">
+        <a href="./index.html" target="_blank"><button> <b>GRAPHICS WORLD</b> </button></a>
+    </nav>
+    
+    <nav class="nav_login_register">
+
+        <a href="./login.html" target="_blank"><button>Login</button></a>
+        
+    </nav><br>
+
+
+    <div class="reg_title" align="center">
+        <h1>Please Enter Your Login Information</h1>
+    </div>
+
+    <br>
+
+    <div class="reg_form">
+        <form action="#" align="center">
+            <label for="reg_fname">First Name</label><br>
+            <input class="reg_inp"  type="text" id="reg_fname"  required><br><br> 
+            <label for="reg_lname">Last Name</label><br>
+            <input class="reg_inp"  type="text" id="reg_lname"  required><br><br>
+            <label for="reg_email">Email</label><br>
+            <input class="reg_inp"  type="email" id="reg_email"  required><br><br>
+            <label for="reg_contacts">Contact</label><br>
+            <input class="reg_inp"  type="tel" id="reg_contact"  required><br><br>
+            <label for="reg_pw">Password</label><br>
+            <input class="reg_inp"  type="password" id="reg_pw"  required><br><br>
+          <!-- <label for="reg_pw">Password</label><br>
+            <input class="reg_inp"  type="password" id="reg_pw"   pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" required><br><br> --> 
+           
+            <input type="checkbox" id="reg_new_user_checkbox" name="reg_new_user_checkbox" required>
+            <label class="_reg_new_user_checkbox" for="reg_new_user_checkbox">Are you a new user in this Website ?</label>
+        <br><input type="reset" id="reg_form_reset">
+            <input type="submit" id="_reg_form_submit"><br><br><br>
+        </form>
+    </div>
+</body>
+</html>

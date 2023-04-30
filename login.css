@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    color: green;
+
+}
+
+::selection {
+    color: rgb(255, 0, 0);
+    background-color: #092709;
+}
+
+.nav_title_logo button {
+    float: left;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    font-family: Matura MT Script Capitals;
+    color: green;
+
+
+}
+
+.nav_login_register button {
+    float: right;
+    color: green;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.116);
+
+}
+
+.nav_title_logo button:hover {
+    color: #00ff22;
+    cursor: pointer;
+
+}
+
+.nav_login_register button:hover {
+    background-color: rgb(72, 255, 0);
+    cursor: pointer;
+}
+
+/*  Starts Here */
+
+.login_title {
+    font-weight: Bold;
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin-top: 7vh;
+
+}
+
+.login_form {
+    margin-top: 30px;
+
+
+}
+
+
+
+
+#login_uname {
+    border-radius: 7%;
+    background-color: rgba(45, 151, 102, 0.185);
+    margin-right: 7px;
+    color: white;
+}
+
+#login_pw {
+    margin: 7px;
+    border-radius: 7%;
+    background-color: rgba(45, 151, 102, 0.185);
+    color: white
+}
+
+#login_checkbox {
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+#login_checkbox :hover{
+    color: brown;
+
+}
+#btn_reset{
+    background-color:rgba(255, 0, 0, 0.432);
+    color: white;
+    border-radius: 4px;
+}
+
+#btn_reset:hover{
+    background-color:rgb(255, 0, 0);
+    color: white;
+}
+
+#btn_submit{
+    background-color: #8dff9c;
+}
+
+#btn_submit:hover{
+    background-color: #00ff22;
+}

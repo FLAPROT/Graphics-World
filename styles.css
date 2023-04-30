@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+  background-image: url(./images/imgs/obg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background-color: #061f06;
+}
+
+.nav_title_logo button {
+  float: left;
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+  font-family: Matura MT Script Capitals;
+
+
+}
+
+.nav_login_register button {
+  float: right;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.116);
+
+}
+
+.nav_title_logo button:hover {
+  color: #3b0707;
+
+}
+
+.nav_login_register button:hover {
+  background-color: rgba(136, 0, 0, 0.123);
+
+}
+
+.album_btn button {
+  color: aliceblue;
+  background-color: #a00c0c2a;
+}
+
+
+
+
+
+/* sliding head */
+
+.slide_head {
+  font-family: Montserrat;
+  text-align: center;
+  color: #061f06;
+  font-size: 34px;
+  padding-top: 30vh;
+  overflow: hidden;
+}
+
+header {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+header:first-of-type {
+  animation: appear 6s infinite;
+}
+
+header:last-of-type {
+  animation: reveal 6s infinite;
+}
+
+header:last-of-type span {
+  font-size: 29px;
+  font-family: Blackadder ITC;
+  color: #b3282f;
+  animation: slide 6s infinite;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    margin-right: 300px;
+  }
+
+  15% {
+    opacity: 1;
+    margin-right: 300px
+  }
+
+  20% {
+    opacity: 1;
+    margin-right: 20px
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    margin-right: 1500px;
+  }
+
+  20% {
+    margin-right: 1400px;
+  }
+
+  40% {
+    margin-right: 1300px;
+  }
+
+  100% {
+    margin-right: 1200px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+
+  30% {
+    width: 655px;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    width: 655px;
+  }
+}
+
+.header_inf {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  text-align: center;
+  margin-left: 378px;
+  width: 600px;
+  font-family: Comic Sans Ms;
+}
+
+.products {
+  font-family: Arial;
+}
+
+
+
+
+
+
+
+/*register*/
+
+.reg_title {
+  font-family: Comic Sans Ms;
+  font-size: larger;
+}
+
+.reg_form {
+  padding-top: 7vh;
+  font-family: Comic Sans Ms;
+  font-size: large;
+  background-color: rgba(240, 255, 255, 0.295);
+  margin-left: 34%;
+  margin-right: 34%
+}
+
+.reg_inp {
+  border-radius: 7%;
+  border-color: rgba(0, 117, 146, 0.247);
+  padding-right: 4%;
+
+
+
+  background-color: rgba(151, 199, 199, 0.185);
+}
+
+
+
+
+
+
+
+
+/* Login */
